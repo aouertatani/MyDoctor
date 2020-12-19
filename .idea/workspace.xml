@@ -3,16 +3,39 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="07979646-920c-4a9a-a16e-9b336453b0e1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MyDoctor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyDoctor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -119,6 +142,7 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
       <path value="$PROJECT_DIR$/vendor/doctrine/sql-formatter" />
       <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/web-server-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1ltMTK8wymTpuf407QmCG1kfEPi" />
@@ -127,12 +151,25 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="server:start" />
+      <command value="s server:stop" />
+      <command value="s server:log" />
+      <command value="s server:start" />
+      <command value="s server:run" />
+      <command value="s make:user" />
+      <command value="s make:auth" />
+    </option>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -143,11 +180,25 @@
       <option name="presentableId" value="Default" />
       <updated>1608411941945</updated>
       <workItem from="1608411943171" duration="377000" />
+      <workItem from="1608413940815" duration="309000" />
+      <workItem from="1608414310385" duration="433000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="407" y="241" key="ComposerCompositePathDialog" timestamp="1608412302804">
@@ -158,17 +209,33 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="448" y="233" key="FrameworkEditDialogDimensionKey/0.0.1366.728@0.0.1366.728" timestamp="1608412319608" />
+    <state width="1115" height="135" key="GridCell.Tab.0.bottom" timestamp="1608414708765">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1115" height="135" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608414708765" />
+    <state width="1115" height="135" key="GridCell.Tab.0.center" timestamp="1608414708765">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1115" height="135" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608414708765" />
+    <state width="1115" height="135" key="GridCell.Tab.0.left" timestamp="1608414708765">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1115" height="135" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608414708765" />
+    <state width="1115" height="135" key="GridCell.Tab.0.right" timestamp="1608414708765">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1115" height="135" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608414708765" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1608412322791">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1608412322791" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1608412185675">
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1608414707877">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1608412185675" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1608412266230">
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1608414707877" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1608414670683">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1608412266230" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1608414670683" />
   </component>
 </project>
